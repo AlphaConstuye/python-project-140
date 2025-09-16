@@ -3,5 +3,9 @@
 
 [![Maintainability](https://qlty.sh/gh/AlphaConstuye/projects/python-project-140/maintainability.svg)](https://qlty.sh/gh/AlphaConstuye/projects/python-project-140)
 
-## Link grabación ##
+## Link grabación ejercicio de pares
 https://asciinema.org/a/jQZHyM3JMrXgkFkXCA23envEZ
+
+## Link grabación ejercicio calculadora
+https://asciinema.org/a/m79FDEEt4U4TOikWtAzcrw8Ui
+
