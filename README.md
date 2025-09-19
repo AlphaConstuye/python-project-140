@@ -9,3 +9,11 @@ https://asciinema.org/a/jQZHyM3JMrXgkFkXCA23envEZ
 ## Link grabación ejercicio calculadora
 https://asciinema.org/a/m79FDEEt4U4TOikWtAzcrw8Ui
 
+## Link grabación ejercicio MCD
+https://asciinema.org/a/Cpgn3XNu7FG5XXBWAOAoR404a
+
+## Link grabación ejercicio progresión aritmetica
+https://asciinema.org/a/GsqI19TbdrwJ9F2OsZ0gKMPlT
+
+## Link grabación ejercicio primo
+https://asciinema.org/a/WTK9adyYwSOxKbLpMMsFHqoUk 
