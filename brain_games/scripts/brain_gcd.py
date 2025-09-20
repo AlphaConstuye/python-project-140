@@ -1,14 +1,9 @@
 from brain_games.games.gcd import Question_operate, answer
+from brain_games.cli import welcome_user
 
-
-def greet_and_get_name() -> str:
-    print('Welcome to the Brain Games!')
-    name = input('May I have your name? ')
-    print(f'Hello, {name}!')
-    return name
 
 def main():
-    name = greet_and_get_name()
+    name = welcome_user()
     print("Find the greatest common divisor of given numbers.")
 
     correct_streak = 0

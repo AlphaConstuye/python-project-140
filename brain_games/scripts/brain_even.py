@@ -2,15 +2,11 @@
 
 import sys
 from brain_games.games import even
+from brain_games.cli import  welcome_user
 
-def greet_and_get_name() -> str:
-    print('Welcom to the Brain Games!')
-    name = input('May I have your name? ')
-    print(f'Hello, {name}!')
-    return name
 
 def main():
-    name = greet_and_get_name()
+    name = welcome_user()
     print('Answer "yes" if the number is even, otherwise anser "no".')
 
     round_to_win = 3
