@@ -16,7 +16,7 @@ def main():
         if user_correct:
             correct_streak += 1
         else:
-            print(f"Let's try  again, {name}!")
+            print(f"Let's try again, {name}!")
             return
 
     print(f"Congratulations, {name}!")
