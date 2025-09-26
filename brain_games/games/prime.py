@@ -1,5 +1,6 @@
 from random import randint
 
+
 def is_prime(n: int) -> bool:
     if n < 2:
         return False
@@ -15,6 +16,7 @@ def Question_operate():
 
     print(f'Question: {numero}')
     return correct_answer
+
 
 def answer(correct_answer):
     user_input = input("Your answer:(yes/no): ").lower().strip()

@@ -10,5 +10,6 @@ def generate_question() -> Tuple[int, str]:
     correct = 'yes' if number % 2 == 0 else 'no'
     return number, correct
 
+
 def is_correct(answer: str, correct_answer: str) -> bool:
     return answer == correct_answer

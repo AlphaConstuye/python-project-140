@@ -1,5 +1,5 @@
-from brain_games.games.calculate import Question_operate, answer
 from brain_games.cli import welcome_user
+from brain_games.games.calculate import Question_operate, answer
 
 
 def main():

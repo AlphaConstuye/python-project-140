@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 
 import sys
+
+from brain_games.cli import welcome_user
 from brain_games.games import even
-from brain_games.cli import  welcome_user
 
 
 def main():
     name = welcome_user()
-    print('Answer "yes" if the number is even, otherwise anser "no".')
+    print('Answer "yes" if the number is even, otherwise anwser "no".')
 
     round_to_win = 3
 

@@ -7,13 +7,14 @@ def Question_operate():
     longitud = 10
     progresion = [inicio + i * paso for i in range(longitud)]
 
-    faltante_idx = randint(0, longitud -1)
+    faltante_idx = randint(0, longitud - 1)
 
     correct_answer = progresion[faltante_idx]
     progresion[faltante_idx] = ".."
 
     print("Question:", " ".join(map(str, progresion)))
     return correct_answer
+
 
 def answer(correct_answer):
     user_input = input("Your answer: ")

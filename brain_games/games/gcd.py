@@ -1,5 +1,5 @@
-from random import randint
 from math import gcd
+from random import randint
 
 
 def Question_operate():
@@ -10,6 +10,7 @@ def Question_operate():
 
     print(f'Question: {num1} {num2}')
     return correct_answer
+
 
 def answer(correct_answer):
     user_input = input("Your answer: ")

@@ -11,7 +11,7 @@ brain-games:
 	uv run brain-games
 
 lint:
-	uv run ruff check brain_games
+	uv run ruff check brain_games --fix
 
 clean:
 	rm -rf dist *.egg-info .venv

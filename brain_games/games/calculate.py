@@ -1,10 +1,10 @@
-from random import randint, choice
+from random import choice, randint
 
 
 def Question_operate():
     num1 = randint(0, 100)
     num2 = randint(0, 100)
-    operadores = choice(["+","-", "*"])
+    operadores = choice(["+", "-", "*"])
 
     if operadores == "+":
         correct_answer = num1 + num2
@@ -15,6 +15,7 @@ def Question_operate():
 
     print(f'Question: {num1} {operadores} {num2}')
     return correct_answer
+
 
 def answer(correct_answer):
     user_input = input("Your answer: ")
