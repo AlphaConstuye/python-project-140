@@ -20,7 +20,7 @@ def main():
         if user_answer not in ('yes', 'no') or not even.is_correct(user_answer, correct_answer):
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
-            sys.exit(1)
+            return 
 
         print('Correct!')
 
