@@ -8,7 +8,7 @@ from brain_games.games import even
 
 def main():
     name = welcome_user()
-    print('Answer "yes" if the number is even, otherwise anwser "no".')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
 
     round_to_win = 3
 
