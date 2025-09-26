@@ -9,11 +9,11 @@ def Question_operate():
     if operadores == "+":
         correct_answer = num1 + num2
     elif operadores == "-":
-          correct_answer = num1 - num2
-    elif operadores == "*":
-          correct_answer = num1 * num2
+        correct_answer = num1 - num2
+    else:
+        correct_answer = num1 * num2
 
-    print(f'Question: {num1} {operadores} {num2}')
+    print(f"Question: {num1} {operadores} {num2}")
     return correct_answer
 
 
@@ -22,14 +22,19 @@ def answer(correct_answer):
     try:
         user_answer = int(user_input)
     except ValueError:
-        # entrada no convertible a entero → considera respuesta incorrecta
-        print(f"'{user_input}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+        print(
+            f"'{user_input}' is wrong answer ;(. "
+            f"Correct answer was '{correct_answer}'."
+        )
         return False
 
     if user_answer == correct_answer:
         print("Correct!")
         return True
 
-    print(f"'{user_input}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+    print(
+        f"'{user_input}' is wrong answer ;(. "
+        f"Correct answer was '{correct_answer}'."
+    )
     return False
 

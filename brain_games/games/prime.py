@@ -25,5 +25,8 @@ def answer(correct_answer):
         return True
 
     else:
-        print(f"'{user_input}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+        print(
+            f"'{user_input}' is wrong answer ;(. "
+            f"Correct answer was '{correct_answer}'."
+        )
         return False

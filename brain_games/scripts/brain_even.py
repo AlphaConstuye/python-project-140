@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-import sys
-
 from brain_games.cli import welcome_user
 from brain_games.games import even
 
@@ -17,10 +15,18 @@ def main():
         print(f'Question: {number}')
         user_answer = input('Your answer: ').strip().lower()
 
-        if user_answer not in ('yes', 'no') or not even.is_correct(user_answer, correct_answer):
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+        invalid = (
+            user_answer not in ("yes", "no")
+            or not even.is_correct(user_answer, correct_answer)
+        )
+
+        if invalid:
+            print(
+                f"'{user_answer}' is wrong answer ;(. "
+                f"Correct answer was '{correct_answer}'."
+            )
             print(f"Let's try again, {name}!")
-            return 
+            return
 
         print('Correct!')
 
@@ -29,3 +35,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
